@@ -3,28 +3,54 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: sans-serif;
+	text-decoration: none;
 }
 
 /* UTILITIES */
 .container {
 	max-width: 965px;
 	margin: 0 auto;
-	background-color: red;
 }
 
 
 /* HEADER */
 .header {
-	background-color: rgb(42, 115, 179);
+	background-color: #3161E0;
 }
 .header__nav-sec {
 	display: inline-block;
-	width: 30%;
-	background-color: palegreen;
+	width: 60%;
 	margin: 0 0 0 -4px;
 }
 .header__logo-sec {
 	display: inline-block;
-	width: 70%;
-	background-color: thistle;
+	width: 30%;
+}
+.header__logo-sec img {
+	vertical-align: middle;	
+}
+.header__nav-sec li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.header__nav-sec li a {
+	color: #fff;
+}
+
+.header__nav-sec li:last-child {
+	margin-right: 0px;
+	margin-left: 40px;
+	color: black;
+	
+}
+.header__nav-row {
+	padding: 22px 0px ;
+}
+
+.header__nav-sec li .header__login {
+	padding: 10px;
+	background-color: #fff;
+	color: black;
+	border-radius: 25px;
 }
