@@ -1,0 +1,30 @@
+/* GENERAL */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* UTILITIES */
+.container {
+	max-width: 965px;
+	margin: 0 auto;
+	background-color: red;
+}
+
+
+/* HEADER */
+.header {
+	background-color: rgb(42, 115, 179);
+}
+.header__nav-sec {
+	display: inline-block;
+	width: 30%;
+	background-color: palegreen;
+	margin: 0 0 0 -4px;
+}
+.header__logo-sec {
+	display: inline-block;
+	width: 70%;
+	background-color: thistle;
+}
