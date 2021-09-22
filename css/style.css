@@ -13,6 +13,11 @@
 	margin: 0 auto;
 }
 
+.btn {
+	display: inline-block;
+	border-radius: 25px;
+	padding: 10px;
+}
 
 /* HEADER */
 .header {
@@ -56,11 +61,38 @@
 }
 .banner {
 	background-image: url("../img/jumbo.png");
-	background-size: contain;
+	background-size: cover;
 	background-position: top;
+	width: 100vw;
 }
 .banner__inner {
 	max-width: 640px;
-	background-color: blue;
 	margin: 0 auto;
+	padding: 200px 5px;
+	text-align: center;
+	color: #fff;
+}
+.banner__title {
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 40px;
+}
+.banner__subtitle{
+	line-height: 25px;
+	margin-bottom: 40px;
+	font-weight: 600;
+}
+.btn {
+	display: inline-block;
+	border-radius: 25px;
+	padding: 15px;
+}
+.banner__button--black {
+	background-color: #fff;
+	color: #23272A;
+	margin-right: 20px;
+}
+.banner__button--withe {
+	background-color: #23272A;
+	color: #fff;
 }
