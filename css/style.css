@@ -18,7 +18,21 @@
 	border-radius: 25px;
 	padding: 10px;
 }
+.mb-50 {
+	margin-bottom: 50px;
+}
+.mb-100 {
+	margin-bottom: 100px;
+}
+.bg-gray {
+	background-color: #F6F6F6;
+}
 
+.clearfix::after {
+	content:"";
+	display: table;
+	clear: both;
+}
 /* HEADER */
 .header {
 	background-color: #3161E0;
@@ -95,4 +109,27 @@
 .banner__button--withe {
 	background-color: #23272A;
 	color: #fff;
+}
+/*  ABOUT  */
+.about {
+	padding: 100px 0;
+}
+.about__img {
+	float: left;
+}
+.about__txt {
+	max-width: 285px;
+	float: left;
+	margin-top: 30px;
+}
+.about__title {
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+.about__subtitle {
+	line-height: 25px;
+}
+.about__bottom{
+	text-align: center;
 }
