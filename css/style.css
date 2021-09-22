@@ -54,3 +54,13 @@
 	color: black;
 	border-radius: 25px;
 }
+.banner {
+	background-image: url("../img/jumbo.png");
+	background-size: contain;
+	background-position: top;
+}
+.banner__inner {
+	max-width: 640px;
+	background-color: blue;
+	margin: 0 auto;
+}
